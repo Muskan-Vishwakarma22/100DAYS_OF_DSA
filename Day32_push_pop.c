@@ -20,7 +20,7 @@
 #include <stdio.h>
 #define MAX 100 
 
-void main(){
+int main(){
     int stack[MAX], 
     top = -1;
     int n, i, m, x;
@@ -46,4 +46,5 @@ void main(){
     for(i = top; i >= 0; i--){
         printf("%d ", stack[i]);
     }
+    return 0;
 }
