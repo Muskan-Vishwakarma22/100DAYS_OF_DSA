@@ -47,6 +47,7 @@ struct Node* inputList(int size) {
         if (head == NULL) { head = tail = newNode; }
         else { tail->next = newNode; tail = newNode; }
     }
+    
     return head;
 }
 
